@@ -1,0 +1,43 @@
+/*
+MyKuler palette:
+"lyseblå", gul, rød, hvid, mørkeblå
+#255B9B, #FDD645, #F15656, #F2F8FF, #31313B
+*/
+
+header{
+	background-color: #31313B; /*#2B3E50;*/
+}
+
+hr.star-light:after{
+	background-color: #31313B;
+}
+
+section.success{
+	background-color: #2B3E50;
+}
+
+hr.star-primary:after{
+	color: white;
+	background-color: #2B3E50;
+}
+
+hr{
+	/*color: red;*/
+}
+
+section#profile{
+	background-color: #F15656;
+}
+#profile hr.star-light:after{
+	background-color: #F15656;
+}
+
+section#education{
+	background-color: #FDD645;
+}
+#education hr.star-light:after{
+	background-color: #FDD645;
+}
+#education hr{
+	color: white;
+}
